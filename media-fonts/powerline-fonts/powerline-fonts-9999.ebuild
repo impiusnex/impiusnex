@@ -13,17 +13,10 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="amd64 ~x86"
 
-IUSE="+3270 AnonymousPro"
+IUSE="3270 AnonymousPro"
 RDEPEND=""
 DEPEND="${RDEPEND}"
 
 S="${WORKDIR}/fonts-master"
-FONT_S=""
+FONT_S="3270 AnonymousPro Arimo Cousine DejaVuSansMono DroidSansMonoDotted DroidSansMonoSlashed GoMono Hack LiberationMono Monofur NotoMono ProFont RobotoMono SpaceMono SymbolNeu Tinos UbuntuMono"
 FONT_SUFFIX="ttf"
-
-src_prepare() {
-	usex 3270 'FONT_S="3270"' ''
-	usex AnonymousPro 'FONT_S="${FONT_S} AnonymousPro"' ''
-	echo $FONT_S
-	src_prepare
-}
