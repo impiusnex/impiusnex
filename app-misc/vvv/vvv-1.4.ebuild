@@ -14,3 +14,5 @@ IUSE="wxwidgets taglib firebird"
 
 RDEPEND=""
 DEPEND="${RDEPEND}"
+
+S=${WORKDIR}
