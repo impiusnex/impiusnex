@@ -17,4 +17,4 @@ And make sure to have this at the end of your /etc/make.conf:
 : # source /var/lib/layman/make.conf
 
 Or if you just need to use it quick, do it this way: 
-: # layman -f -a maya -o https://raw.github.com/impiusnex/impiusnex/master/overlay.xml
+: # layman -f -a impiusnex -o https://raw.github.com/impiusnex/impiusnex/master/overlay.xml
