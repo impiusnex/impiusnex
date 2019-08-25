@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE repositories SYSTEM "repositories.dtd">
+<repositories xmlns="" version="1.0">
+	<repo quality="experimental" status="unofficial">
+		<name>maya</name>
+		<description>impiusnex</description>
+		<homepage>https://github.com/impiusnex/impiusnex</homepage>
+		<owner type="project">
+			<email>impius.nex@gmail.com</email>
+			<name>ImpiusNex</name>
+		</owner>
+		<source type="git">git://github.com/impiusnex/impiusnex</source>
+		<feed>https://github.com/impiusnex/impiusnex/commits/master.atom</feed>
+	</repo>
+</repositories>
