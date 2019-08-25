@@ -5,18 +5,14 @@ EAPI=6
 
 DESCRIPTION="Virtual Volume View"
 HOMEPAGE="http://vvvapp.sourceforge.net/"
-SRC_URI="https://downloads.sourceforge.net/project/vvvapp/VVV/1.4/VVV-1.4-src.zip"
+SRC_URI="https://sourceforge.net/projects/vvvapp/files/VVV/1.4/VVV-1.4.0-x86_64.tar.gz"
 
 LICENSE=""
 SLOT="0"
 KEYWORDS="~amd64"
-IUSE="wxwidgets taglib firebird"
+IUSE=""
 
-RDEPEND="
-	media-libs/taglib
-	dev-db/firebird
-	x11-libs/wxGTK:3
-"
+RDEPEND=""
 DEPEND="${RDEPEND}"
 
 S=${WORKDIR}
