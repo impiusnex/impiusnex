@@ -2,8 +2,8 @@
 <!DOCTYPE repositories SYSTEM "repositories.dtd">
 <repositories xmlns="" version="1.0">
 	<repo quality="experimental" status="unofficial">
-		<name>maya</name>
-		<description>impiusnex</description>
+		<name>impiusnex</name>
+		<description>impiusnex's ebuild repo</description>
 		<homepage>https://github.com/impiusnex/impiusnex</homepage>
 		<owner type="project">
 			<email>impius.nex@gmail.com</email>
