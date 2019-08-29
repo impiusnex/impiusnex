@@ -63,7 +63,7 @@ src_compile(){
 		 $(usex houdini "--houdini-location HOUDINI_LOCATION" "")
 "
 	echo $myconf
-	python2.7 ${S}/build_scripts/build_usd.py /usr/local/USD $myconf
+	python2.7 ${S}/build_scripts/build_usd.py $DESTDIR=${D} $myconf
 }
 
 # usage: build_usd.py [-h] [-n] [-v | -q] [-j JOBS] [--build BUILD]
