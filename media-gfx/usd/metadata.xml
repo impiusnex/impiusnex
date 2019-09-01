@@ -1,0 +1,63 @@
+<?xml version-"1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>impius.nex@gmail.com</email>
+    <name>Impius Nex</name>
+  </maintainer>
+  <longdescription>
+    Pixar Animation Studios USD - Universal Scene Description
+  </longdescription>
+  <use>
+    <flag name="docs">
+      Install documentation
+    </flag>
+    <flag name="openimageio">
+      Enable support for OpenImageIO using
+      <pkg>media-libs/openimageio</pkg>
+    </flag>
+    <flag name="opencolorio">
+      Enable support for OpenColorIO using
+      <pkg>media-libs/opencolorio</pkg>
+    </flag>
+    <flag name="ptex">
+      Enable support for ptex textures using
+      <pkg>media-libs/ptex</pkg>
+    </flag>
+    <flag name="embree">
+      Enable support for embree using
+      <pkg>media-libs/embree</pkg>
+    </flag>
+    <flag name="alembic">
+      Enable support for alembic files using
+      <pkg>media-gfx/alembic</pkg>
+    </flag>
+    <flag name="hdf5">
+      Enable support for HDF5 encoding in alembid files using
+      <pkg>media-gfx/albemic[hdf5]
+      </pkg>
+    </flag>
+    <flag name="tests">
+      Build tests use flag
+    </flag>
+    <flag name="python">
+      Build internal python
+    </flag>
+    <flag name="materialx">
+      Build support for materialx
+    </flag>
+    <flag name="prman">
+      Support for Pixar's Renderman you will need to set the PRMAN_LOCATION environment variable when using this flag
+    </flag>
+    <flag name="maya">
+      Build Maya plugin, you will need to set MAYA_LOCATION environment variable when using this flag
+    </flag>
+    <flag name="katana">
+      Build Katana plugin, you will need to set KATANA_API_LOCATION environment variable when using this flag
+    </flag>
+    <flag name="houdini">
+      Build Houdini plugin, you will need to set HOUDINI_LOCATION environment variable when using this flag
+    </flag>
+  </use>
+</pkgmetadata>
+

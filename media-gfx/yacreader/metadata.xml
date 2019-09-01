@@ -1,0 +1,33 @@
+<?xml version-"1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <maintainer type="person">
+    <email>impius.nex@gmail.com</email>
+    <name>Impius Nex</name>
+  </maintainer>
+  <longdescription>
+    A comic reader for cross-platform reading and managing your digital comic collection
+  </longdescription>
+  <use>
+    <flag name="lha">
+      Enable support for LHA files using
+      <pkg>app-arch/lha</pkg>
+    </flag>
+    <flag name="pdf">
+      Enable support for viewing PDF files with
+      <pkg>app-text/poppler</pkg>
+    </flag>
+    <flag name="qrcode">
+      Enable support for QR codes with
+      <pkg>media-gfx/qrencode</pkg>
+    </flag>
+    <flag name="rar">
+      Enable support for RAR files using
+      <pkg>app-arch/unrar</pkg>
+    </flag>
+    <flag name="zip">
+      Enable support for ZIP files using
+      <pkg>app-arch/unzip</pkg>
+    </flag>
+  </use>
+</pkgmetadata>
