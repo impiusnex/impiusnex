@@ -1,0 +1,16 @@
+<?xml version-"1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+    <maintainer type="person">
+        <email>impius.nex@gmail.com</email>
+        <name>Impius Nex</name>
+    </maintainer>
+    <longdescription>
+    </longdescription>
+    <use>
+        <flag name="">
+            Description of useflag
+            <pkg>package needed by useflag</pkg>
+        </flag>
+    </use>
+</pkgmetadata>
