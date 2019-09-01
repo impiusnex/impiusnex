@@ -13,7 +13,7 @@ LICENSE=""
 SLOT="0"
 KEYWORDS="amd64 ~x86"
 
-IUSE="3270 AnonymousPro"
+IUSE=""
 RDEPEND=""
 DEPEND="${RDEPEND}"
 
