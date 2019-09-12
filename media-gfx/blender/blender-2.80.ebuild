@@ -13,7 +13,7 @@ SRC_URI="https://download.blender.org/source/${P}.tar.gz"
 
 LICENSE="|| ( GPL-2 BL )"
 SLOT="0"
-KEYWORDS="~amd64 ~x86"
+KEYWORDS="~amd64"
 IUSE="+bullet +dds +elbeem +openexr collada color-management \
 		cuda cycles debug doc ffmpeg fftw headless jack jemalloc jpeg2k libav \
 		llvm man ndof nls openal openimageio openmp opensubdiv openvdb \
