@@ -9,12 +9,12 @@ HOMEPAGE="https://kde.org/"
 LICENSE="metapackage"
 SLOT="5"
 KEYWORDS="amd64 arm64 x86"
-IUSE="accessibility games pim sdk"
+IUSE="accessibility edu games pim sdk"
 
 RDEPEND="
 	>=kde-apps/kdeadmin-meta-${PV}:${SLOT}
 	>=kde-apps/kdecore-meta-${PV}:${SLOT}
-	>=kde-apps/kdeedu-meta-${PV}:${SLOT}
+	edu? ( >=kde-apps/kdeedu-meta-${PV}:${SLOT} )
 	games? ( >=kde-apps/kdegames-meta-${PV}:${SLOT} )
 	>=kde-apps/kdegraphics-meta-${PV}:${SLOT}
 	>=kde-apps/kdemultimedia-meta-${PV}:${SLOT}
